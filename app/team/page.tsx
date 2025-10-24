@@ -173,11 +173,11 @@ export default function TeamPage() {
             </p>
           </div>
 
-          {/* Executive Leadership */}
+          {/* Cellule Presidentielle */}
           <div className="mb-16">
             <h3 className="text-2xl font-bold mb-8 text-center">
               <Users className="inline-block mr-2 h-6 w-6 text-primary" />
-              Executive Leadership
+              Cellule Presidentielle
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all group">
@@ -193,9 +193,9 @@ export default function TeamPage() {
                     <Badge variant="secondary">Leadership</Badge>
                     <Badge variant="secondary">Strategy</Badge>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Leading SecurEMI's strategic vision and overall direction
-                  </p>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Architecting the future of cybersecurity education and innovation
+                    </p>
                 </CardContent>
               </Card>
 
@@ -212,9 +212,9 @@ export default function TeamPage() {
                     <Badge variant="secondary">Vice Leadership</Badge>
                     <Badge variant="secondary">Operations</Badge>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Supporting the president and managing operational activities
-                  </p>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Orchestrating technical excellence and strategic implementation
+                    </p>
                 </CardContent>
               </Card>
 
@@ -231,9 +231,9 @@ export default function TeamPage() {
                     <Badge variant="secondary">Secretariat</Badge>
                     <Badge variant="secondary">Administration</Badge>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    General secretary and administrative coordination
-                  </p>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Ensuring seamless coordination and organizational excellence
+                    </p>
                 </CardContent>
               </Card>
             </div>
@@ -263,7 +263,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Security</Badge>
                       <Badge variant="secondary" className="text-xs">Cybersecurity</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Leading Securemi security initiatives</p>
+                    <p className="text-xs text-muted-foreground">Pioneering cutting-edge security research and innovation</p>
                   </CardContent>
                 </Card>
 
@@ -280,7 +280,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Security</Badge>
                       <Badge variant="secondary" className="text-xs">Cybersecurity</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Co-leading Securemi security initiatives</p>
+                    <p className="text-xs text-muted-foreground">Masterminding advanced cybersecurity strategies and solutions</p>
                   </CardContent>
                 </Card>
               </div>
@@ -303,53 +303,53 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Data Science</Badge>
                       <Badge variant="secondary" className="text-xs">AI/ML</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Leading data science and AI initiatives</p>
-                  </CardContent>
-                </Card>
+                    <p className="text-xs text-muted-foreground">Harnessing the power of AI to revolutionize cybersecurity</p>
+                </CardContent>
+              </Card>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">NS</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">NaserEddine SEBABTI</CardTitle>
                     <CardDescription>Chef Data & AI</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Data Science</Badge>
                       <Badge variant="secondary" className="text-xs">AI/ML</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Co-leading data science and AI initiatives</p>
-                  </CardContent>
-                </Card>
-              </div>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Transforming data into intelligent security insights</p>
+                </CardContent>
+              </Card>
             </div>
+          </div>
 
             {/* Dev & Algo Cell */}
             <div className="mb-12">
               <h4 className="text-xl font-bold mb-6 text-center text-accent">Chefs Dev & Algo</h4>
               <div className="grid md:grid-cols-2 gap-6">
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">IA</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Ismail AIT MOUMAD</CardTitle>
                     <CardDescription>Chef Dev & Algo</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Development</Badge>
                       <Badge variant="secondary" className="text-xs">Algorithms</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Leading development and algorithm initiatives</p>
-                  </CardContent>
-                </Card>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Crafting elegant solutions through innovative algorithms</p>
+                </CardContent>
+              </Card>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">SF</span>
                     </div>
                     <CardTitle className="text-lg">Sami FAOUZI</CardTitle>
@@ -360,7 +360,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Development</Badge>
                       <Badge variant="secondary" className="text-xs">Algorithms</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Co-leading development and algorithm initiatives</p>
+                    <p className="text-xs text-muted-foreground">Engineering the future of secure software development</p>
                   </CardContent>
                 </Card>
               </div>
@@ -374,62 +374,62 @@ export default function TeamPage() {
                   <CardHeader className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">OR</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Oussama RABII</CardTitle>
                     <CardDescription>Chef Conception</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Conception</Badge>
                       <Badge variant="secondary" className="text-xs">Design</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Leading conception and design initiatives</p>
-                  </CardContent>
-                </Card>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Designing visionary concepts that shape the future</p>
+                </CardContent>
+              </Card>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">JM</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Jihad MAHDAD</CardTitle>
                     <CardDescription>Chef Conception</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Conception</Badge>
                       <Badge variant="secondary" className="text-xs">Design</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Co-leading conception and design initiatives</p>
-                  </CardContent>
-                </Card>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Innovating breakthrough designs and creative solutions</p>
+                </CardContent>
+              </Card>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">MM</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Malak MOUKRIM</CardTitle>
                     <CardDescription>Chef Conception</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Conception</Badge>
                       <Badge variant="secondary" className="text-xs">Design</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Co-leading conception and design initiatives</p>
-                  </CardContent>
-                </Card>
-              </div>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Crafting exceptional user experiences and innovative designs</p>
+                </CardContent>
+              </Card>
             </div>
+          </div>
 
             {/* Sponsor Cell */}
             <div className="mb-12">
               <h4 className="text-xl font-bold mb-6 text-center text-accent">Chefs Sponsor</h4>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">YL</span>
                     </div>
                     <CardTitle className="text-lg">Yasser LMOUDEN</CardTitle>
@@ -440,7 +440,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Sponsorship</Badge>
                       <Badge variant="secondary" className="text-xs">Partnerships</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Leading sponsorship and partnership initiatives</p>
+                    <p className="text-xs text-muted-foreground">Building strategic alliances that drive innovation forward</p>
                   </CardContent>
                 </Card>
 
@@ -457,7 +457,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Sponsorship</Badge>
                       <Badge variant="secondary" className="text-xs">Partnerships</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Co-leading sponsorship and partnership initiatives</p>
+                    <p className="text-xs text-muted-foreground">Forging powerful connections that amplify our impact</p>
                   </CardContent>
                 </Card>
 
@@ -474,7 +474,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Sponsorship</Badge>
                       <Badge variant="secondary" className="text-xs">Partnerships</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Co-leading sponsorship and partnership initiatives</p>
+                    <p className="text-xs text-muted-foreground">Cultivating meaningful relationships that fuel our mission</p>
                   </CardContent>
                 </Card>
               </div>
@@ -488,22 +488,22 @@ export default function TeamPage() {
                   <CardHeader className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">AE</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Aya ELHARRAK</CardTitle>
                     <CardDescription>Chef Logistique</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Logistics</Badge>
                       <Badge variant="secondary" className="text-xs">Operations</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Leading logistics and operations management</p>
-                  </CardContent>
-                </Card>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Masterminding flawless event execution and seamless operations</p>
+                </CardContent>
+              </Card>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">OR</span>
                     </div>
                     <CardTitle className="text-lg">Oussama RABII</CardTitle>
@@ -514,7 +514,7 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Logistics</Badge>
                       <Badge variant="secondary" className="text-xs">Operations</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Co-leading logistics and operations management</p>
+                    <p className="text-xs text-muted-foreground">Orchestrating precision logistics that make the impossible possible</p>
                   </CardContent>
                 </Card>
               </div>
@@ -528,24 +528,24 @@ export default function TeamPage() {
                   <CardHeader className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">ML</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Malak LAAROUSI</CardTitle>
                     <CardDescription>Chef Media</CardDescription>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <div className="flex flex-wrap gap-1 justify-center mb-3">
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="flex flex-wrap gap-1 justify-center mb-3">
                       <Badge variant="secondary" className="text-xs">Media</Badge>
                       <Badge variant="secondary" className="text-xs">Communication</Badge>
-                    </div>
-                    <p className="text-xs text-muted-foreground">Leading media and communication initiatives</p>
-                  </CardContent>
-                </Card>
+                  </div>
+                    <p className="text-xs text-muted-foreground">Crafting compelling narratives that inspire and engage</p>
+                </CardContent>
+              </Card>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
-                  <CardHeader className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+                <CardHeader className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-lg font-bold text-primary-foreground">AA</span>
-                    </div>
+                  </div>
                     <CardTitle className="text-lg">Aymen ABBAR</CardTitle>
                     <CardDescription>Chef Media</CardDescription>
                   </CardHeader>
@@ -554,9 +554,9 @@ export default function TeamPage() {
                       <Badge variant="secondary" className="text-xs">Media</Badge>
                       <Badge variant="secondary" className="text-xs">Communication</Badge>
                     </div>
-                    <p className="text-xs text-muted-foreground">Co-leading media and communication initiatives</p>
-                  </CardContent>
-                </Card>
+                    <p className="text-xs text-muted-foreground">Amplifying our message through innovative digital storytelling</p>
+                </CardContent>
+              </Card>
               </div>
             </div>
           </div>
